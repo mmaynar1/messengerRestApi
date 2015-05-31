@@ -9,12 +9,13 @@ import java.util.List;
 
 //todo is the slash necessary?
 @Path( "/messages" )
+@Consumes( MediaType.APPLICATION_JSON )
+@Produces( MediaType.APPLICATION_JSON )
 public class MessageResource
 {
     MessageService messageService = new MessageService();
 
     @GET
-    @Produces( MediaType.APPLICATION_JSON )
     public List<Message> getMessages()
     {
         return messageService.getAllMessages();
@@ -22,17 +23,29 @@ public class MessageResource
 
     @GET
     @Path( "/{messageId}" )
-    @Produces( MediaType.APPLICATION_JSON )
     public Message test( @PathParam( "messageId" ) long messageId )
     {
         return messageService.getMessage( messageId );
     }
 
     @POST
-    @Consumes( MediaType.APPLICATION_JSON )
-    @Produces( MediaType.APPLICATION_JSON )
     public Message addMessage( Message message )
     {
         return messageService.addMessage( message );
+    }
+
+    @PUT
+    @Path( "/{messageId}" )
+    public Message updateMessage( @PathParam( "messageId" ) long messageId, Message message )
+    {
+        message.setId( messageId );
+        return messageService.updateMessage( message );
+    }
+
+    @DELETE
+    @Path( "/{messageId}" )
+    public void deleteMessage(@PathParam( "messageId" ) long messageId)
+    {
+        messageService.removeMessage( messageId );
     }
 }
