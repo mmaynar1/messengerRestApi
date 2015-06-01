@@ -5,6 +5,7 @@ import org.maynard.mitch.messenger.service.MessageService;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
 import java.util.List;
 
 //todo is the slash necessary?
@@ -16,9 +17,26 @@ public class MessageResource
     MessageService messageService = new MessageService();
 
     @GET
-    public List<Message> getMessages()
+    public List<Message> getMessages( @QueryParam( "year" ) int year,
+                                      @QueryParam( "start" ) int start,
+                                      @QueryParam( "size" ) int size )
     {
-        return messageService.getAllMessages();
+        List<Message> messages = new ArrayList<>();
+        if ( year > 0 )
+        {
+            messages = messageService.getAllMessagesForYear( year );
+        }
+        else if ( start > -1 && size > 0 )
+        {
+            //NOTE: if condition above was changed to size >= 0 getAllMessages() would never get called.
+            //This is because by default they will be initialized to zero.
+            messages = messageService.getAllMessagesPaginated( start, size );
+        }
+        else
+        {
+            messages = messageService.getAllMessages();
+        }
+        return messages;
     }
 
     @GET

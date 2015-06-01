@@ -4,6 +4,7 @@ import org.maynard.mitch.messenger.database.DatabaseClass;
 import org.maynard.mitch.messenger.model.Message;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
@@ -20,6 +21,36 @@ public class MessageService
     public List<Message> getAllMessages()
     {
         return new ArrayList<>( messages.values() );
+    }
+
+    public List<Message> getAllMessagesForYear( int year )
+    {
+        List<Message> messagesForYear = new ArrayList<>();
+        Calendar calendar = Calendar.getInstance();
+
+        for ( Message message : messages.values() )
+        {
+            calendar.setTime( message.getCreated() );
+            if ( calendar.get( Calendar.YEAR ) == year )
+            {
+                messagesForYear.add( message );
+            }
+        }
+        return messagesForYear;
+    }
+
+    public List<Message> getAllMessagesPaginated( int start, int size )
+    {
+        List<Message> messagesPaginated = new ArrayList<>( messages.values() );
+        if ( start + size > messagesPaginated.size() )
+        {
+            messagesPaginated = new ArrayList<>();
+        }
+        else
+        {
+            messagesPaginated = messagesPaginated.subList( start, start + size );
+        }
+        return messagesPaginated;
     }
 
     public Message getMessage( long id )
