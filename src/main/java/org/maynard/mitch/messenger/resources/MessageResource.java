@@ -23,7 +23,7 @@ public class MessageResource
 
     @GET
     @Path( "/{messageId}" )
-    public Message test( @PathParam( "messageId" ) long messageId )
+    public Message getMessage( @PathParam( "messageId" ) long messageId )
     {
         return messageService.getMessage( messageId );
     }
@@ -44,7 +44,7 @@ public class MessageResource
 
     @DELETE
     @Path( "/{messageId}" )
-    public void deleteMessage(@PathParam( "messageId" ) long messageId)
+    public void deleteMessage( @PathParam( "messageId" ) long messageId )
     {
         messageService.removeMessage( messageId );
     }
