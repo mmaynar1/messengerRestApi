@@ -1,7 +1,10 @@
 package org.maynard.mitch.messenger.resources;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.UriInfo;
 
 @Path( "/demo" )
 @Consumes( MediaType.TEXT_PLAIN )
@@ -20,4 +23,14 @@ public class DemoResource
         //There is also FormParam, which is used when submitting an HTML form. This is rarely used for REST APIs.
         return "Matrix Param: " + matrixParam + "\nHeader Param: " + headerParam + "\nCookie Param: " + cookie;
     }
+
+    @GET
+    @Path( "context" )
+    public String getParamsUsingContext( @Context UriInfo uriInfo, @Context HttpHeaders httpHeaders )
+    {
+        String path = uriInfo.getAbsolutePath().toString();
+        String cookies = httpHeaders.getCookies().toString();
+        return "Path: " + path + "\nCookies: " + cookies;
+    }
+
 }
