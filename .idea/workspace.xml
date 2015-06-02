@@ -3,6 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="e638d72b-caa2-4414-8e40-f6523a12b8d4" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messengerEclipse\MyResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messenger\MyResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messenger\resources\MessageResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\maven\org.maynard.mitch\messengerEclipse\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\maven\org.maynard.mitch\messengerEclipse\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messengerEclipse\MyResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messenger\MyResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messenger\resources\MessageResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\aopalliance-repackaged-2.4.0-b09.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-api-2.4.0-b09.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-locator-2.4.0-b09.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-utils-2.4.0-b09.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.inject-2.4.0-b09.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-client-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-common-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-container-servlet-core-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-guava-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-media-jaxb-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-server-2.16.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\web.xml" afterPath="" />
     </list>
     <ignored path="messengerEclipse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +84,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1550">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="1550">
               <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
               <folding />
             </state>
@@ -209,6 +235,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -421,8 +449,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +458,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="C:/dev/dt-suite/datatrak/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -772,14 +798,18 @@
       <created>1433046414216</created>
       <updated>1433046414216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added index.jsp back">
+      <created>1433203716188</created>
+      <updated>1433203716188</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3868132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3872387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,6 +820,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,13 +829,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2595949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -828,7 +858,8 @@
     <MESSAGE value="Lesson: Returning XML Response" />
     <MESSAGE value="Lesson: Building Service Stubs (mock database)" />
     <MESSAGE value="Lesson: Accessing Path params" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson: Accessing Path params" />
+    <MESSAGE value="added index.jsp back" />
+    <option name="LAST_COMMIT_MESSAGE" value="added index.jsp back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -836,6 +867,70 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="600">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/resources/MessageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1525">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="350">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1550">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1775">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="2275">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/database/DatabaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="725">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/model/Profile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="575" max-vertical-offset="2125">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="600">
