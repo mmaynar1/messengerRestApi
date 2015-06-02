@@ -23,12 +23,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="messenger" />
-        <module name="messengerEclipse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="messenger" target="1.7" />
-      <module name="messengerEclipse" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
