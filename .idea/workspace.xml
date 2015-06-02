@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e638d72b-caa2-4414-8e40-f6523a12b8d4" name="Default" comment="">
+    <list default="true" id="e638d72b-caa2-4414-8e40-f6523a12b8d4" name="Default" comment="added stuff back trying to make gitignore work&#10;">
       <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messengerEclipse\MyResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messenger\MyResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\classes\org\maynard\mitch\messenger\resources\MessageResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\maven\org.maynard.mitch\messengerEclipse\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\m2e-wtp\web-resources\META-INF\maven\org.maynard.mitch\messengerEclipse\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messengerEclipse\MyResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messenger\MyResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\classes\org\maynard\mitch\messenger\resources\MessageResource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\aopalliance-repackaged-2.4.0-b09.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-api-2.4.0-b09.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-locator-2.4.0-b09.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\hk2-utils-2.4.0-b09.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.annotation-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.inject-2.4.0-b09.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\javax.ws.rs-api-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-client-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-common-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-container-servlet-core-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-guava-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-media-jaxb-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\jersey-server-2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\osgi-resource-locator-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\lib\validation-api-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MitchM\Fun Projects\messengerRestApi\target\messenger\WEB-INF\web.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="messengerEclipse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageResource.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MessageResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/resources/MessageResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1525">
               <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45638946" vertical-offset="125" max-vertical-offset="675">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,7 +131,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/MessageResource.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/model/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/model/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/database/DatabaseClass.java" />
@@ -155,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/resources/MessageResource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -802,7 +787,11 @@
       <created>1433203716188</created>
       <updated>1433203716188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added stuff back trying to make gitignore work&#10;">
+      <created>1433203810751</created>
+      <updated>1433203810751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -859,7 +848,8 @@
     <MESSAGE value="Lesson: Building Service Stubs (mock database)" />
     <MESSAGE value="Lesson: Accessing Path params" />
     <MESSAGE value="added index.jsp back" />
-    <option name="LAST_COMMIT_MESSAGE" value="added index.jsp back" />
+    <MESSAGE value="added stuff back trying to make gitignore work&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stuff back trying to make gitignore work&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,13 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3750" max-vertical-offset="21900">
-          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
@@ -1185,20 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4100" max-vertical-offset="20350">
-          <caret line="177" column="49" selection-start-line="177" selection-start-column="49" selection-end-line="177" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49371633" vertical-offset="0" max-vertical-offset="557">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/maynard/mitch/messenger/database/DatabaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
@@ -1259,6 +1228,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1525">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45638946" vertical-offset="125" max-vertical-offset="675">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
