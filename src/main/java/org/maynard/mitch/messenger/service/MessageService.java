@@ -14,6 +14,7 @@ public class MessageService
 
     public MessageService()
     {
+        //this comment is a test
         messages.put( 1L, new Message( 1, "Message 1", "Mitch" ) );
         messages.put( 2L, new Message( 2, "Message 2", "Mitch" ) );
     }
