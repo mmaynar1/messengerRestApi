@@ -65,4 +65,10 @@ public class MessageResource
     {
         messageService.removeMessage( messageId );
     }
+
+    @Path("/{messageId}/comments")
+    public CommentResource getCommentResource()
+    {
+        return new CommentResource();
+    }
 }
