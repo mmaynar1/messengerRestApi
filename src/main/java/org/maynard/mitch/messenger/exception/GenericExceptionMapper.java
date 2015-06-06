@@ -6,7 +6,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 
-@Provider
+//@Provider
 public class GenericExceptionMapper implements ExceptionMapper<Throwable>
 {
     /*Blanket catch so we always return JSON. Explicitly mapped exceptions will be handled by
