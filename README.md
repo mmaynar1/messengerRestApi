@@ -65,3 +65,6 @@ http://javabrains.koushik.org/courses/javaee_jaxrs/lessons/Using-WebApplicationE
 
 Lesson: HATEOAS (Part 1)
 http://javabrains.koushik.org/courses/javaee_jaxrs/lessons/HATEOAS-Part-1
+
+Lesson: HATEOAS (Part 2)
+http://javabrains.koushik.org/courses/javaee_jaxrs/lessons/HATEOAS-Part-2

@@ -55,18 +55,39 @@ public class MessageResource
                                @Context UriInfo uriInfo )
     {
         Message message = messageService.getMessage( messageId );
-        String uri = getUriForSelf( uriInfo, message );
-        message.addLink( uri, "self" );
+        message.addLink( getUriForSelf( uriInfo, message ), "self" );
+        message.addLink( getUriForProfile( uriInfo, message ), "profile" );
+        message.addLink( getUriForComments( uriInfo, message ), "comments" );
         return message;
+    }
+
+    private String getUriForComments( UriInfo uriInfo, Message message )
+    {
+        return uriInfo.getBaseUriBuilder() // http://localhost:8080/webapi/
+                .path( MessageResource.class ) // /messages
+                .path( MessageResource.class, "getCommentResource" )  // /{messageId}/comments
+                .path( CommentResource.class )
+                .resolveTemplate( "messageId", message.getId() ) //replace messageId in uri with message.getId()
+                .build()
+                .toString();
+    }
+
+    private String getUriForProfile( UriInfo uriInfo, Message message )
+    {
+        return uriInfo.getBaseUriBuilder() // http://localhost:8080/webapi/
+                .path( ProfileResource.class ) // /profiles
+                .path( message.getAuthor() ) // /{authorName}
+                .build()
+                .toString();
     }
 
     private String getUriForSelf( UriInfo uriInfo, Message message )
     {
-        return uriInfo.getBaseUriBuilder() // http://localhost:8080/webap/
-                    .path( MessageResource.class ) // /messages
-                    .path( Long.toString( message.getId() ) ) // /{messageId}
-                    .build()
-                    .toString();
+        return uriInfo.getBaseUriBuilder() // http://localhost:8080/webapi/
+                .path( MessageResource.class ) // /messages
+                .path( Long.toString( message.getId() ) ) // /{messageId}
+                .build()
+                .toString();
     }
 
     @POST
