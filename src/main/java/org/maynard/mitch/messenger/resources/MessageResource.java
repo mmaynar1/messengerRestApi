@@ -21,9 +21,9 @@ import java.net.URI;
 import java.util.List;
 
 //todo is the slash necessary?
-@Path("/messages")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
+@Path( "/messages" )
+@Consumes( MediaType.APPLICATION_JSON )
+@Produces( MediaType.APPLICATION_JSON )
 public class MessageResource
 {
     MessageService messageService = new MessageService();
@@ -50,10 +50,23 @@ public class MessageResource
     }
 
     @GET
-    @Path("/{messageId}")
-    public Message getMessage( @PathParam("messageId") long messageId )
+    @Path( "/{messageId}" )
+    public Message getMessage( @PathParam( "messageId" ) long messageId,
+                               @Context UriInfo uriInfo )
     {
-        return messageService.getMessage( messageId );
+        Message message = messageService.getMessage( messageId );
+        String uri = getUriForSelf( uriInfo, message );
+        message.addLink( uri, "self" );
+        return message;
+    }
+
+    private String getUriForSelf( UriInfo uriInfo, Message message )
+    {
+        return uriInfo.getBaseUriBuilder() // http://localhost:8080/webap/
+                    .path( MessageResource.class ) // /messages
+                    .path( Long.toString( message.getId() ) ) // /{messageId}
+                    .build()
+                    .toString();
     }
 
     @POST
